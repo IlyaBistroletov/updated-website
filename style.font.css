@@ -1,0 +1,193 @@
+body {
+    background: rgb(235, 255, 254);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+
+}
+
+
+.bg-green {
+    background-color: rgb(125, 230, 133);
+    margin-bottom: 10px;
+}
+
+.bg-red  {
+   margin-bottom: 500px;
+    background-color: rgb(197, 87, 76);
+}
+
+
+.bg-yellow {
+    background-color: rgb(220, 222, 63);
+}
+
+
+.card {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.bg-blue {
+    margin-bottom: 10px;
+    background-color: rgb(156, 248, 248);
+}
+
+.card1 {
+margin-bottom: 20px;
+border-radius: 20px;
+border: 1px solid black;
+padding-left: 15px;
+padding-bottom: 10px;
+}
+
+
+.card2 {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.card3 {
+    background-color: rgb(192, 231, 231);
+    border-radius: 20px;
+}
+.card4 {
+    background-color: rgb(132, 112, 213);
+    border-radius: 20px;
+}
+.card5 {
+    background-color: rgb(233, 215, 190);
+    border-radius: 20px;
+}
+
+
+
+.text {
+    color: brown;
+}
+.img1 {
+margin-top: 15px;
+margin-bottom: 20px;
+border-radius: 5%;
+box-shadow: 10px 4px 5px 10px rgb(82, 136, 195)
+}
+
+.table tr,td  {
+    border: 1px solid black;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 550px;
+}
+.em {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+}
+
+.fo {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    padding: 10px 15px;
+    background: rgb(212, 92, 178);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+    
+}
+.btn2 {
+    padding: 10px 15px;
+    background: rgb(51, 182, 239);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+    
+}
+.btn3 {
+    padding: 10px 15px;
+    background: rgb(88, 65, 222);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btn {
+    background: rgb(227, 221, 221);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+
+}
+
+
+.btn:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+.btn4:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+.btn1:hover {
+    opacity: 0.8;
+    color: orange;
+}
+.btn2:hover {
+    opacity: 0.8;
+    color: orange;
+}
+.btn3:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+.btn4 {
+    padding: 15px 20px;
+    background: rgb(8, 3, 3);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn1:active{
+    color: rgb(122, 233, 130);
+}
+.btn2:active{
+    color: rgb(122, 233, 130);
+}
+.btn3:active{
+    color: rgb(122, 233, 130);
+}
+
+.btn:active{
+    color: rgb(122, 233, 130);
+}
+
+.info-text h1,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
