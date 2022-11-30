@@ -3,10 +3,14 @@ body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-
 }
 
-
+@media (max-width:500px){
+    .info-text{
+        display: block;
+        text-align: center;
+    }
+}
 .bg-green {
     background-color: rgb(125, 230, 133);
     margin-bottom: 10px;
@@ -14,7 +18,7 @@ body {
 
 .bg-red  {
    margin-bottom: 500px;
-    background-color: rgb(197, 87, 76);
+    background-color: rgb(249, 238, 231);
 }
 
 
@@ -26,6 +30,7 @@ body {
 .card {
     border: 1px solid black;
     border-radius: 20px;
+    
 }
 .bg-blue {
     margin-bottom: 10px;
@@ -60,8 +65,11 @@ padding-bottom: 10px;
 
 
 
-.text {
+.list {
     color: brown;
+    margin-bottom: 10px;
+    padding: 10px;
+    list-style: none;
 }
 .img1 {
 margin-top: 15px;
@@ -72,23 +80,22 @@ box-shadow: 10px 4px 5px 10px rgb(82, 136, 195)
 
 .table tr,td  {
     border: 1px solid black;
-    
+    padding: 5px;
+}
+
+
+.table {
+    width: 100%;
+    padding-right: 15px;
 }
 
 .container {
     margin: auto;
     max-width: 550px;
 }
-.em {
-    margin-left: 10px;
-    margin-bottom: 2px;
-    padding-top: 10px;
-}
 
-.fo {
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
+
+
 
 .btn1 {
     padding: 10px 15px;
@@ -130,7 +137,6 @@ box-shadow: 10px 4px 5px 10px rgb(82, 136, 195)
     cursor: pointer;
     font-family: inherit;
     text-decoration: none;
-
 }
 
 
@@ -166,6 +172,8 @@ box-shadow: 10px 4px 5px 10px rgb(82, 136, 195)
     text-decoration: none;
     border-radius: 15px;
     color: white;
+    margin-bottom: 10px;
+   margin-left: 15px;
 }
 
 .btn1:active{
@@ -182,10 +190,80 @@ box-shadow: 10px 4px 5px 10px rgb(82, 136, 195)
     color: rgb(122, 233, 130);
 }
 
-.info-text h1,p{
-    margin-top: 0px;
-    margin-bottom: 0px;
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
 }
+
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.info {
+display: flex;
+
+}
+
+
+.list-link {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-link li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.form  h2 {
+    text-align: center;
+}
+
+.form-group label{
+display: block;
+font-size: 14px;
+color: #4e4642
+}
+
+.form-row {
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.form-row, .form-group {
+  /*   display: inline-block; */
+   margin-right: 20px;
+   width: 50%;
+  /*  width: calc(50%- 20px); */
+}
+
+.form-row .form-group: last-child {
+margin-right: 0;
+} 
+
+    
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent; /* это значение бэграунд транспорент делает прозрачным наши импуты и техтеру, кому мы обращаемся */
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 15px;
+    outline: none; /* аутлайн убирает линии в инпуте которые возникают при наведении нан их мышкой */
+    font-family: inherit;
+    margin-bottom: 10px;  
+}
+
+
+
+
+
+
 
 
 
